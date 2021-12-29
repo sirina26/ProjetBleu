@@ -9,22 +9,28 @@
 </head>
 
 <body>
-  <a href="gestionAdh.php">Gestion des adhernets</a>
-  <br/>
-  <br/>
-  <a href="AjouterAdherent.php">Ajouter un adhernet</a>
-   <br/>
+<div id="container">
+
+  <form action="" method=""> 
+    <a href="gestionAdh.php">Gestion des adhernets</a>
     <br/>
-  <a href="RechAdh.php">Recherche adhernet</a>
-   <br/>
     <br/>
-  
-  <br/>
-  <br/>
+    <a href="AjouterAdherent.php">Ajouter un adhernet</a>
+    <br/>
+    <br/>
+    <a href="RechAdh.php">Recherche adhernet</a>
+    <br/>
+    <br/>
+    <a href="login.php">login adhernet</a>
+    <br/>
+    <br/>
+  </form>
   <p>
     <?php
       echo "<br><right>Nous somme le " . date("d/m/y")."<br></right>"."<br>";
     ?>
   </p>
+</div>
+  
 </body>
 </html>

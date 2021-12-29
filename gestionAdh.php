@@ -28,6 +28,8 @@ catch(Exception $e){
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="container">
+	<form action="" method="get">
 	<table border="1">
 		<caption><h1>Gestion des adhérents</h1></caption>
 		<thead>
@@ -67,5 +69,7 @@ catch(Exception $e){
 	?>
 	<br/>
 <a href="index.php">Retour à l'accueil</a>
+		</form>
+		</div>
 </body>
 </html>
