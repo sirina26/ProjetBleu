@@ -6,6 +6,16 @@ body{
     margin:0 auto;
     margin-top:10%;
 }
+
+#containerS{
+    width:60%;
+    margin:0 auto;
+    margin-top:10%;
+}
+.cent{
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Bordered form */
 form {
     width:100%;

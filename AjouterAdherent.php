@@ -23,19 +23,19 @@ require 'fonction.php';
 	    	<td><input type="text" name="prenom"/></td>
 		</tr>
 		<tr>
-			<td><label>Niveau :</label></td>
+			<td><label>Niveau</label></td>
 			<td><input type="text" name="nivadh"/></td>
 		</tr>
 		<tr>
-			<td><label>Ville :</label></td>
+			<td><label>Ville</label></td>
 			<td><input type="text" name="ville"/></td>
 		</tr>
 		<tr>
-	    	<td><label>Code postal :</label></td>
+	    	<td><label>Code postal</label></td>
 	    	<td><input type="text" name="cpadh"/></td>
 	    </tr>
 		<tr>
-	    	<td><label>Code Type Test :</label></td>
+	    	<td><label>Type</label></td>
 	    	<td>
 	    		<select id="libelltype" name="libelltype">
 			    	<option valeur="Etudient">Etudient</option>
@@ -51,6 +51,7 @@ require 'fonction.php';
 			</td>
 		</tr>
 		</table>
+		<a href="index.php">Retour à l'accueil</a>
+
 	</form>
-	<a href="index.php">Retour à l'accueil</a>
 </body>

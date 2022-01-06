@@ -28,9 +28,9 @@ catch(Exception $e){
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div id="container">
+<div id="containerS">
 	<form action="" method="get">
-	<table border="1">
+	<table class='cent' border="1">
 		<caption><h1>Gestion des adhérents</h1></caption>
 		<thead>
 			<tr>
@@ -52,9 +52,9 @@ catch(Exception $e){
 				$prenom=$ligne['prenomAdh'];
 				$nivadh=$ligne['NiveauAdh'];
 				echo "<tr><td>
-				<a href='details.php?id=$matricule'>Détails</a>&nbsp;&#124;&nbsp;
-				<a href='supprimer.php?id=$matricule'>Supprimer</a>&nbsp;&#124;&nbsp;
-				<a href='modifier.php?id=$matricule'>Modifier</a></td>";
+				<button><a style='text-decoration:none' href='details.php?id=$matricule'>Détails</a></button>
+				<button><a style='text-decoration:none' href='supprimer.php?id=$matricule'>Supprimer</a></button>
+				<button><a style='text-decoration:none' href='modifier.php?id=$matricule'>Modifier</a></td></button>";
 				echo "<td>$nom</td>";
 				echo "<td>$prenom</td>";
 				echo "<td>$nivadh</td></tr>";
